@@ -25,8 +25,7 @@ public class Computer {
     }
 
     public String getRam() {
-
-        return Integer.toString(ram) + " GB";
+        return Integer.toString(ram) + "GB";
     }
 
     public void setRam(int ram) {
@@ -46,8 +45,8 @@ public class Computer {
     public String getSdd() {
         String sddValue = "";
         if (this.sdd>= 512)
-            sddValue = Integer.toString(sdd) + " GB";
-        else if (sdd < 100 ) sddValue = Integer.toString(sdd) + " TB";
+            sddValue = Integer.toString(sdd) + "GB";
+        else if (sdd < 100 ) sddValue = Integer.toString(sdd) + "TB";
 
         return sddValue;
     }

@@ -10,6 +10,12 @@ public class Person {
         System.out.println("DEFAULT CONSTRUCTOR");
     }
 
+    public Person(String name, int id, double age) {
+        this.name = name;
+        this.id = id;
+        this.age = age;
+    }
+
     public void setName(String name) {
         if(name!=null)
             this.name = name;
@@ -39,5 +45,8 @@ public class Person {
         return age;
     }
 
-
+    @Override
+    public String toString() {
+        return "Name: " + name + "; id: " + id + "; age: " + age;
+    }
 }

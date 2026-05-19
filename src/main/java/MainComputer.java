@@ -14,12 +14,9 @@ public class MainComputer {
                         + "; CPU: " + comp1.getCpu()
                         + "; RAM: " + comp1.getRam()
                         + "; SDD: " + comp1.getSdd()
-                );
-
+        );
 
         System.out.println(comp2.toString());
         System.out.println("My work laptop: " + comp3.toString());
-
-
     }
 }
