@@ -3,13 +3,15 @@ public class MainPersonHW4 {
         Person p1 = new Person("John Connor", 323442, 10 );
         System.out.println(p1);
 
-        Employee ep = new Employee("John Connor", 323442, 10,
+       /* Employee ep = new Employee("John Connor", 323442, 10,
                 "Cyberdyne Systems", "Full time", 2000);
         System.out.println(ep);
 
         SalesEmployee sep = new SalesEmployee("Sara Connor", 2134235,
                 18, "Big Jeff's", "Part time", 532, 100);
         System.out.println(sep);
+
+        */
 
         SportsMan sp = new SportsMan("Michael Jordan", 235325, 63,
                 "Basketball", "Shooting guard");

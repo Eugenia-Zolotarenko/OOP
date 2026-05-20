@@ -1,4 +1,4 @@
-public class Employee extends Person{
+public abstract class Employee extends Person{
     private String company;
     private double salary;
     private String time;
@@ -41,6 +41,9 @@ public class Employee extends Person{
 
     @Override
     public String toString() {
-        return super.toString() + "; company: " + company + "; salary: " + salary + " Euro";
+        return super.toString() + "; company: " + company + "; "  + time
+                + "; salary: " + salary + " Euro";
     }
+
+    public abstract double calculateSalary();
 }
